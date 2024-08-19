@@ -18,6 +18,7 @@ to launch the gradio session in your browser. The session creates a share link b
 
 ### Recommended settings:
 Inference Steps: 30-50
+
 Guidance Scale: 5-7 (use integers only!)
 
 #### Obligatory cat sample @ 50 Steps, Guidance = 7, Random Seed:
@@ -32,4 +33,5 @@ Tested on NVIDIA RTX 40XX, Windows 11.
 
 #### Coming Soon:
 -TensorRT version (large speedup on NVIDIA RTX)
+
 -Apple Silicon version (in alpha)
