@@ -1,3 +1,4 @@
+--extra-index-url https://pypi.ngc.nvidia.com
 accelerate==0.33.0
 aiofiles==23.2.1
 annotated-types==0.7.0
@@ -9,7 +10,7 @@ click==8.1.7
 colorama==0.4.6
 contourpy==1.2.1
 cycler==0.12.1
-deepspeed @ file:///D:/compute/HunyuanDiT/DeepSpeed-0.14.4/dist/deepspeed-0.14.4%2B9b09a9b-py3-none-any.whl#sha256=38cf98803c64a9e4f25ce4d680f27b05211c0e98d1d127a6e10a9694d7660256
+deepspeed==0.6.3
 diffusers==0.29.2
 dnspython==2.6.1
 einops==0.8.0
