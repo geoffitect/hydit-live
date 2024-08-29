@@ -140,7 +140,8 @@ def save_image(image):
 
 # Gradio Interface
 with gr.Blocks() as demo:
-    gr.Markdown("# Hunyuan-DiT Image Generation")
+    gr.Markdown("# HyDiT-Live:")
+    gr.Markdown("## Minimal Hunyuan-DiT Image Generation")
     
     with gr.Row():
         with gr.Column():
@@ -151,8 +152,8 @@ with gr.Blocks() as demo:
             prompt_input = gr.Textbox(label="Prompt")
             negative_prompt_input = gr.Textbox(label="Negative Prompt")
             seed_input = gr.Textbox(label="Seed (optional)", placeholder="Random if left empty")
-            infer_steps_slider = gr.Slider(minimum=1, maximum=100, value=50, step=1, label="Inference Steps")
-            guidance_scale_slider = gr.Slider(minimum=1, maximum=20, value=6, step=0.1, label="Guidance Scale")
+            infer_steps_slider = gr.Slider(minimum=1, maximum=50, value=25, step=1, label="Inference Steps (Use <=25 for Distilled)")
+            guidance_scale_slider = gr.Slider(minimum=1, maximum=20, value=7, step=1, label="Guidance Scale")
             
             generate_button = gr.Button("Generate Image")
         
