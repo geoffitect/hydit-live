@@ -152,7 +152,7 @@ with gr.Blocks() as demo:
             prompt_input = gr.Textbox(label="Prompt")
             negative_prompt_input = gr.Textbox(label="Negative Prompt")
             seed_input = gr.Textbox(label="Seed (optional)", placeholder="Random if left empty")
-            infer_steps_slider = gr.Slider(minimum=1, maximum=50, value=25, step=1, label="Inference Steps (Use <=25 for Distilled)")
+            infer_steps_slider = gr.Slider(minimum=30, maximum=100, value=30, step=1, label="Inference Steps")
             guidance_scale_slider = gr.Slider(minimum=1, maximum=20, value=7, step=1, label="Guidance Scale")
             
             generate_button = gr.Button("Generate Image")
