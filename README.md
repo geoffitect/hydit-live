@@ -7,7 +7,7 @@ https://huggingface.co/Tencent-Hunyuan/HunyuanDiT (Main HuggingFace Repo)
 
 *In a nutshell, HyD offers impressive capabilities due to its bilingual training dataset and ability to take long, detailed natural language descriptions as prompts.*
 
-## Installation and use:
+## Installation and use (Tested with Win11/Python 3.10.9/CUDA 12.2):
 It is recommended to create a virtual environment first! In powershell:
 ```
 python -m venv venv
