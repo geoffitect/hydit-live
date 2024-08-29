@@ -107,10 +107,10 @@ generator = HunyuanDiTGenerator()
 image_history = []
 
 MODEL_CHOICES = [
+    "Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers",
+    "Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers-Distilled",
     "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers",
-    "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled",
-    "Tencent-Hunyuan/HunyuanDiT-Diffusers",
-    "Tencent-Hunyuan/HunyuanDiT-Diffusers-Distilled"
+    "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled"
 ]
 
 def load_model(model_choice):
